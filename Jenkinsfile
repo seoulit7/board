@@ -8,7 +8,7 @@ pipeline {
             REGION="ap-northeast-2"
             ECR_PATH = '590183823453.dkr.ecr.ap-northeast-2.amazonaws.com'
             IMAGE_NAME = '590183823453.dkr.ecr.ap-northeast-2.amazonaws.com/board'
-            DEPLOY_Host="54.180.104.255"
+            DEPLOY_Host="43.200.4.54"
         }
     stages {
         stage('Pull Codes from Github'){
